@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" blendMode="DARKEN" prefHeight="422.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController">
+    <children>
+        <Button fx:id="btn" layoutX="18.0" layoutY="95.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="199.0" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtNombre" layoutX="126.0" layoutY="30.0" />
+      <TextField fx:id="txtAplellido" layoutX="126.0" layoutY="62.0" />
+      <Label layoutX="33.0" layoutY="35.0" text="Nombre :" />
+      <Label layoutX="33.0" layoutY="67.0" text="Apellido :" />
+      <TableView fx:id="TableId" layoutX="18.0" layoutY="134.0" prefHeight="239.0" prefWidth="285.0" />
+      <Label fx:id="lblMessage" layoutX="24.0" layoutY="382.0" prefHeight="25.0" prefWidth="278.0" style="-fx-text-alignment: center;" textAlignment="CENTER" textFill="#cd1616" />
+      <Label fx:id="lblId" layoutX="33.0" layoutY="14.0" prefWidth="50.0" textAlignment="CENTER" />
+      <Button fx:id="btnDel" layoutX="235.0" layoutY="95.0" mnemonicParsing="false" onAction="#handleDeleteAction" text="Eliminar" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.6009615384615384" startX="0.3509615384615385">
+               <stops>
+                  <Stop color="#a81e1e" />
+                  <Stop color="#a81e1e" offset="0.007407407407407408" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+    </children>
+</AnchorPane>
