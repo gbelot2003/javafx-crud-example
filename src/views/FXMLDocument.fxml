@@ -17,7 +17,7 @@
       <Label layoutX="33.0" layoutY="67.0" text="Apellido :" />
       <TableView fx:id="TableId" layoutX="18.0" layoutY="134.0" prefHeight="239.0" prefWidth="285.0" />
       <Label fx:id="lblMessage" layoutX="24.0" layoutY="382.0" prefHeight="25.0" prefWidth="278.0" style="-fx-text-alignment: center;" textAlignment="CENTER" textFill="#cd1616" />
-      <Label fx:id="lblId" layoutX="33.0" layoutY="14.0" prefWidth="50.0" textAlignment="CENTER" />
+      <Label fx:id="lblId" layoutX="33.0" layoutY="14.0" prefWidth="50.0" textAlignment="CENTER" visible="false" />
       <Button fx:id="btnDel" layoutX="235.0" layoutY="95.0" mnemonicParsing="false" onAction="#handleDeleteAction" text="Eliminar" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
          <textFill>
             <LinearGradient endX="1.0" endY="0.6009615384615384" startX="0.3509615384615385">
